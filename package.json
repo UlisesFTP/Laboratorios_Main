@@ -1,0 +1,35 @@
+{
+  "name": "laboratorios_computo",
+  "version": "1.0.0",
+  "description": "INTERFAZ",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "css": "gulp css",
+    "sass": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UlisesFTP/Laboratorios_Computo.git"
+  },
+  "keywords": [
+    "SASS",
+    "GULP"
+  ],
+  "author": "Equipo 6 utj une",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UlisesFTP/Laboratorios_Computo/issues"
+  },
+  "homepage": "https://github.com/UlisesFTP/Laboratorios_Computo#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.62.0",
+    "sass-watch": "^0.1.0"
+  }
+}
